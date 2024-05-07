@@ -1,0 +1,13 @@
+.leftsidebar{
+   position: fixed;
+   height: 100vh;
+   background-color: #181818 ;
+   padding: 2%;
+   width: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+ .leftsidebar{
+    display: none;
+ }
+  }
